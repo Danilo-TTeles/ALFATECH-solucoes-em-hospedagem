@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif ;
+}
+
+header{
+    width: 100%;
+    background-color: #2f86d6;
+}
+header div{
+    max-width: 1024px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+header  div img{
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    
+}
+header div h1{
+   margin-top: 15px;
+   margin-left: px;
+}
+header div span{
+    display: block;
+    color: #fff;
+    font-size: 15px;
+}
+nav{
+    text-align: right;
+    margin-top: 40px;
+    margin-left: 25%;
+}
+nav a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+section{
+    max-width: 1024px;
+    width: 100%;
+    
+    margin: 0 auto;
+    
+}
+section table{
+    width: 100%;
+}
+section table th p{
+    font-size: 10px;
+    color: #a89f9f;
+    
+}
+section table tbody td{
+    text-align: center;
+}
+section table thead th h2{
+    font-size: 30px;
+}
+.titulo{
+    font-weight: bold;
+    
+}
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    background-color: #2f86d6;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: b;
+
+}
+
+footer span{
+    color: #233032;
+    font-size: 16px;
+    font-weight: bold;
+}
+footer img{
+    width: 30px;
+    margin-bottom: -8px;
+    border-radius: 50%;
+    margin-left: 5px;
+    border: 1px solid none;
+
+}
+span{
+   color: #2f86d6;
+   font-size:35px;
+   font-weight: bolder;
+}

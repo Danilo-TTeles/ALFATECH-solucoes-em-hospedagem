@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif ;
+}
+.conteudo, .precos, .contatos, header{
+    margin:0 auto;
+    max-width: 1024px;
+    width: 100%;
+    text-align: center;
+}
+header{
+    width: 100%;
+    
+}
+header div{
+    max-width: 1024px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+header  div img{
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    
+}
+header div h1{
+   margin-top: 15px;
+   margin-left: 5px;
+   text-align: justify;
+}
+header div span{
+    display: block;
+    color: #2f86d6;
+    font-size: 15px;
+}
+nav{
+    text-align: right;
+    margin-top: 40px;
+    margin-left: 25%;
+}
+nav a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #233032;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.banner{
+    background-color: #2f86d6;
+    height: 500px;
+    
+}
+.banner div{
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.banner img{
+    width: 600px;
+    
+}
+.banner .texto{
+width: 550px;
+display: block;
+margin-top: 10%;
+
+}
+.texto p, .texto h2{
+    color: #fff;
+}
+.texto h2{
+   font-size: 35px;
+}
+.texto p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.anuncio{
+    background-color: #233032;
+    height: 100px;
+}
+.anuncio2{
+    background-color: #2f86d6;
+    height: 100px;
+}
+.anuncio div, .anuncio2 div{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+}
+.anuncio p{
+    display: inline;
+}
+.anuncio div a, .anuncio2 div a {
+   position: absolute;
+   right: 0;
+   top: 40%;
+   border: 1px solid none;
+   padding: 10px;
+   color: #fff;
+   text-decoration: none;
+   font-weight: bold;
+   background-color: #2f86d6;
+   border-radius: 5px;
+
+}
+.anuncio2 div a{
+    background-color: #233032;
+}
+.anuncio div h3, .anuncio2 div h3{
+    padding-top: 20px;
+}
+
+.conteudo h2, .precos h2{
+    margin:60px 155px 30px;
+}
+
+.conteudo span, .precos span{
+    color: #2f86d6;
+}
+.conteudo img{
+    width: 200px;
+    margin:40px auto;
+}
+.conteudo .servicos{
+    display: flex;
+    flex-direction: row;
+}
+.precos h2{
+    margin:50px 0px;
+}
+.precos table{
+    width: 100%;
+    height: 500px;
+    border: 1px solid #233032;
+    margin-bottom: 60px;
+    box-shadow: 0 0 20px 5px #2f86d6;
+}
+.precos img{
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+}
+.p-peq{
+    font-size: 15px;
+    margin: 0 20px;
+    font-weight: normal;
+    color: #a89f9f;
+}
+.precos table tr td{
+    font-weight:400 ;
+}
+.contatos{
+    height: 260px;
+}
+.logo{
+    
+    width: 310px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.contatos img{
+    width: 100px;
+    
+}
+.contatos h2{
+    text-align: justify;
+    margin-top: 20px;
+
+}
+.contatos span{
+    font-size: 17px ;
+    display: block;
+    color: #2f86d6;
+}
+.contatos p{
+    font-weight: 500;
+    line-height: 25px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    background-color: #2f86d6;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: b;
+}
+
+footer span{
+    color: #233032;
+    font-size: 16px;
+    font-weight: bold;
+}
+footer img{
+    width: 30px;
+    margin-bottom: -8px;
+    border-radius: 50%;
+    margin-left: 5px;
+    border: 1px solid none;
+
+}
